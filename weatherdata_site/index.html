@@ -4,26 +4,26 @@
 <head>
     <meta charset="UTF-8">
     <title>Weather Visualization</title>
-    <!-- Bootstrap Dependencies -->
+    <!-- Bootstrap Libary -->
     <meta name="viewport" content="width=device-width, initial-scale=1">   
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
          
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-         
-    <link rel="stylesheet" href="style.css">
+     <!-- custom styles after bootstrap-->     
+    <link rel="stylesheet" href="stylesheets/style.css">
 </head>
 
 <body>
-    <!-- Build Out the Navbar -->
+    <!-- Nav -->
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <div class="container-fluid">
             <div class="navbar-header">
-                <a class="navbar-brand" style="background-color: teal; color: white; padding: 10%;" href="https://deanthoms.github.io/city_weather_website/index.html"> Lattitude </a>
+                <a class="navbar-brand" style="background-color: #008080; color: #fff; padding: 15%;" href="https://arturowhite17.github.io/weatherdata_site/index.html"> Lattitude </a>
             </div>
 
             
                 <ul class="nav navbar-nav navbar-right">  
-                    <!-- Build Out the Dropdown -->
+                    <!-- dropdown -->
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" aria-haspopup="true" id="navbarDropdownMenuLink">
                             Plots
@@ -44,18 +44,17 @@
                     </li>   
                 </ul>  
         </div>
-        <!-- End Dropdown -->
+        <!-- dropdown end -->
        
     </nav>
-    
-    <!-- Landing Page -->
-    <!-- Build Out the Explanation -->
+     <!-- Nav end -->
+    <!-- Landing -->
     <div class="mt-5 container-fluid" style="margin-left: 4%">
         <div class = "row">
-            <div class = "col-md-7" style= "background-color: white">                
+            <div class = "col-md-7" style= "background-color: #fff">                
                 <div class = "p-3 row">
                     <div class = "col-md-12">
-                        <h1> Summary: Lattitude vs. X </h1>
+                        <h1> Summary: Lattitude vs. X (temperature, cloudiness, wind speed, and humidity) </h1>
                     </div>
                 </div>
                 <hr class="my-4">
@@ -66,7 +65,7 @@
                     </div>
                 </div>
             </div>
-            <div class = "col-md-4" style="background-color: white; margin-left: 1%">
+            <div class = "col-md-4" style="background-color: #fff; margin-left: 1%">
                 <div class = "row p-3">
                     <div class = "col-md-12">
                         <h2> Visualizations </h2>
@@ -77,18 +76,19 @@
                     <div class ="container-fluid">
                         <div class = "row">
                             <div class = "col-sm-6">
-                                <img class = "img-fluid" src="Resources/assets/images/Fig1.png">
+                             <!-- clickable thumbnails -->    
+                               <a href="https://arturowhite17.github.io/weatherdata_site/temperature.html"><img class = "img-fluid" src="Resources/assets/images/Fig1.png"></a> 
                             </div>
                             <div class = "col-sm-6">
-                                <img class = "img-fluid" src="Resources/assets/images/Fig2.png">
+                                <a href="https://arturowhite17.github.io/weatherdata_site/humidity.html"><img class = "img-fluid" src="Resources/assets/images/Fig2.png"></a>
                             </div>
                         </div>
                         <div class = "row">
                             <div class = "col-sm-6">
-                                <img class = "img-fluid" src="Resources/assets/images/Fig3.png">
+                                <a href="https://arturowhite17.github.io/weatherdata_site/clouds.html"><img class = "img-fluid" src="Resources/assets/images/Fig3.png"></a>
                             </div>
                             <div class = "col-sm-6">
-                                <img class = "img-fluid" src="Resources/assets/images/Fig4.png">
+                                <a href="https://arturowhite17.github.io/weatherdata_site/wind.html"><img class = "img-fluid" src="Resources/assets/images/Fig4.png"></a>
                             </div>
                         </div>
                     </div>

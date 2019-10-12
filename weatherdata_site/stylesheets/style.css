@@ -1,0 +1,19 @@
+body {
+    background-color: #d3d3d3;
+}
+
+h1 {
+    color: #008080;
+}
+
+h2 {
+    color: #008080;
+}
+
+p {
+    color: #008080;
+}
+
+.border {
+    border-width: 5; border-color: #008080; border-style: solid;
+}
