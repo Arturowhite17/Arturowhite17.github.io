@@ -1,0 +1,19 @@
+body {
+    background-color: lightgrey;
+}
+
+h1 {
+    color: teal;
+}
+
+h2 {
+    color: teal;
+}
+
+p {
+    color: teal;
+}
+
+.border {
+    border-width: 3; border-color: teal; border-style: solid;
+}
