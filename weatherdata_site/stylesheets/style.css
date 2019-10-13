@@ -17,3 +17,8 @@ p {
 .border {
     border-width: 5; border-color: #008080; border-style: solid;
 }
+
+thread {
+    background-color: #008080; color: #fff;
+
+}
