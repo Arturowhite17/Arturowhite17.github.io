@@ -1,6 +1,6 @@
 # Arturowhite17.github.io
 
-<a href = https://arturowhite17.github.io><h3>Click Here</h3></a>
+[Click Here - arturowhite.info](https://arturowhite17.github.io)
 
 Portfolio and Resume Site
 
