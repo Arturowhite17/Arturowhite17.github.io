@@ -78,7 +78,10 @@ header {
   color: #F7FFF7;
   text-align: center;
 }
-
+.section-nav a {
+  padding: 5px;
+  display: inline-block;
+}
 
 /* Projects
 ------------------------------------*/
